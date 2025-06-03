@@ -27,10 +27,18 @@ url: "https://shopify-kph.github.io/" # the base hostname & protocol for your si
 twitter_username: jekyllrb
 github_username:  jekyll
 
+#Leap Day Theme specific
+#show_downloads: ["true" or "false" (unquoted) to indicate whether to provide a download URL]
+#google_analytics: [Your Google Analytics tracking ID]
+
+
+
 # Build settings
-theme: minima
+#theme: minima
+remote_theme: pages-themes/leap-day@v0.2.0
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
